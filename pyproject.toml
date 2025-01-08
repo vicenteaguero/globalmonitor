@@ -1,0 +1,23 @@
+[tool.poetry]
+authors = ["Vicente Agüero <vicenteaguero>"]
+description = "An Scalable Web Scraping Streamlit-app for Downloading and Processing Source News using NLP."
+license = "MIT"
+name = "globalmonitor"
+packages = [
+  {include = "globalmonitor", from = "."},
+]
+readme = "README.md"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+beautifulsoup4 = "^4.12.3"
+pandas = "^2.2.3"
+selenium = "^4.27.1"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.8.6"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
