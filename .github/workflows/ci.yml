@@ -25,7 +25,7 @@ jobs:
 
       - name: Run Ruff
         run: |
-          if [ -f ".ruff.toml" ]; then
+          if [ -f "ruff.toml" ]; then
             ruff . --config .ruff.toml
           elif [ -f "pyproject.toml" ]; then
             ruff . --config pyproject.toml
