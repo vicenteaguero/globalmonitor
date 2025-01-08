@@ -1,0 +1,50 @@
+:root {
+    --color-ocru: #C2B27F;
+    --color-gray: #A5A5A5;
+    --color-green: #1A281F;
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+}
+
+[data-testid="stSidebar"] {
+    background-color: var(--color-black);
+}
+
+[data-testid="stSidebarNavLink"] span {
+    color: var(--color-white);
+    font-weight: bold;
+}
+
+.stMarkdown p code {
+    background-color: var(--color-black);
+    color: var(--color-ocru);
+    font-weight: bold;
+    border: 3px solid var(--color-ocru);
+}
+
+[data-baseweb="select"] > div:first-child {
+    background-color: var(--color-ocru);
+    color: var(--color-black);
+    font-weight: bold;
+}
+
+[data-testid="stSelectboxVirtualDropdown"] {
+    background-color: var(--color-ocru);
+    color: var(--color-black);
+    font-weight: bold;
+}
+
+[data-testid="stSelectboxVirtualDropdown"] li {
+    color: var(--color-black);
+    font-weight: bold;
+}
+
+[data-testid="stSelectboxVirtualDropdown"] li[aria-selected="true"] {
+    background-color: var(--color-green);
+    color: var(--color-white);
+    font-weight: bold;
+}
+
+[data-testid="stSelectboxVirtualDropdown"] input {
+    display: none;
+}
