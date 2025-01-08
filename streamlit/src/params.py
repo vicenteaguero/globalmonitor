@@ -16,6 +16,7 @@ GITHUB_URL = 'https://github.com/vicenteaguero/globalmonitor'
 ABOUT_URL = 'https://geostrategos.com'
 
 # Images
+FAVICON = 'favicon.png'
 LOGO_LIGHT = 'logo.png'
 LOGO_DARK = 'logo-white.png'
 
@@ -37,6 +38,7 @@ PATHS = {
 }
 
 PATHS.update({
+    'favicon': os.path.join(PATHS['assets'], IMG_FOLDER, FAVICON),
     'logo-light': os.path.join(PATHS['assets'], IMG_FOLDER, LOGO_LIGHT),
     'logo-dark': os.path.join(PATHS['assets'], IMG_FOLDER, LOGO_DARK),
     'base_css': os.path.join(PATHS['assets'], CSS_FOLDER, BASE_CSS),

@@ -2,14 +2,17 @@
 
 import streamlit as st
 
+from PIL import Image
 
 from src.params import PATHS, GITHUB_URL, ABOUT_URL
 
 def setup_layout(page_title: str, page_icon: str):
+    favicon = Image.open(PATHS['favicon'])
     st.set_page_config(
         layout='wide',
         page_title=page_title,
         initial_sidebar_state='expanded',
+        page_icon=favicon,
         menu_items={
             'Get help': GITHUB_URL,
             'Report a bug': GITHUB_URL+'/issues',
