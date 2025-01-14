@@ -1,4 +1,4 @@
-# streamlit/sites/home.py
+# streamlit/sites/paginator.py
 
 from src.layout import setup_layout, setup_custom_css
 
