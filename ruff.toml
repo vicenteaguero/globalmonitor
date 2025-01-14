@@ -5,7 +5,7 @@ lint.extend-select = [
   "UP",
   "B",
 ]
-lint.ignore = ["D100", "D104", "D203", "E225", "E226"]
+lint.ignore = ["D100", "D104", "D203", "E225", "E226", "E731"]
 lint.select = ["Q", "N", "UP", "B", "ISC", "F", "E", "W"]
 
 [lint.flake8-quotes]
