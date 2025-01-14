@@ -14,9 +14,11 @@ python = "^3.10"
 beautifulsoup4 = "^4.12.3"
 pandas = "^2.2.3"
 selenium = "^4.27.1"
+notebook = "^7.3.2"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.8.6"
+notebook = "^7.3.2"
 
 [build-system]
 build-backend = "poetry.core.masonry.api"
